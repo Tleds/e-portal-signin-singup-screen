@@ -1,6 +1,6 @@
 const route = require('express').Router();
 
-const { checkUserStore } = require('../src/middlewares/checkUserStore');
+const { checkUserStore } = require('./middlewares/checkUserStore');
 
 const users_controller = require('./controller/user_controller');
 const session_users_controller = require('./controller/session_user_controller');
