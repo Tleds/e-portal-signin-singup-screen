@@ -36,9 +36,9 @@ function EntrarPage(props) {
           <ButtonStyle noBorderRadius disable onClick={e=> props.history.push('/cadastrar')}>Cadastrar</ButtonStyle>
         </DivRowStyle>
         <Form onSubmit={handleSubmit} schema={schema}>
-        <Input name="email" type="email" placeholder="Digite seu e-mail..."/>
-        <Input maxlength="16" name="password" type="password" placeholder="Digite sua senha..."/>
-        <ButtonStyle type="submit">Entrar</ButtonStyle>
+          <Input name="email" type="email" placeholder="Digite seu e-mail..."/>
+          <Input maxlength="16" name="password" type="password" placeholder="Digite sua senha..."/>
+          <ButtonStyle type="submit">Entrar</ButtonStyle>
         </Form>
       </DivColumnStyle>
     </>
