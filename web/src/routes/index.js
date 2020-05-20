@@ -1,12 +1,9 @@
-import React from 'react';
-import {
-  BrowserRouter,
-  Switch,
-} from 'react-router-dom';
-import Route from './Route';
+import React from "react";
+import { BrowserRouter, Switch } from "react-router-dom";
+import Route from "./Route";
 
-import Entrar from '../pages/EntrarPage';
-import Cadastrar from '../pages/CadastroPage';
+import Entrar from "../pages/EntrarPage";
+import Cadastrar from "../pages/CadastroPage";
 
 function Routes() {
   return (
@@ -16,7 +13,7 @@ function Routes() {
         <Route path="/cadastrar" exact component={Cadastrar} />
       </Switch>
     </BrowserRouter>
-  )
+  );
 }
 
 export default Routes;

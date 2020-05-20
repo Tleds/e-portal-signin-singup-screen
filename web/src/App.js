@@ -1,8 +1,8 @@
-import React from 'react';
-import Routes from './routes';
+import React from "react";
+import { Router } from "react-router-dom";
+import Routes from "./routes";
 
-import { Router } from 'react-router-dom';
-import history from '../src/services/history';
+import history from "./services/history";
 
 function App() {
   return (
